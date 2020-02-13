@@ -1,7 +1,25 @@
 vi:
-  title: Dat ve xem phim
+  title: Đặt vé xem phim
   english: "EN"
   vietnam: "VN"
+  sign_up: "Đăng ký"
+  helpers:
+    label:
+      user:
+        name: "Tên"
+        password: "Mật khẩu"
+        email: "Email"
+        password_confirmation: "Xác nhận mật khẩu"
+        phone: "Số điện thoại"
+        city: "Thành phố"
+        birthday: "Ngày sinh"
+        gender: "Giới tính"
+        male: "Nam"
+        female: "Nữ"
+  users:
+    new:
+        sign_up: "Đăng ký"
+        create: "Tạo tài khoản cho tôi"
   static_pages:
     home:
         title: "Trang Chủ"

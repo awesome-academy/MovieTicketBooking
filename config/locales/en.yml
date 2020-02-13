@@ -2,6 +2,24 @@ en:
   title: MovieTicketBooking
   english: "EN"
   vietnam: "VN"
+  sign_up: "Sign up"
+  helpers:
+    label:
+      user:
+        name: "Name"
+        password: "Password"
+        email: "Email"
+        password_confirmation: "Confirm"
+        phone: "Phone number"
+        city: "City"
+        birthday: "Date of birth"
+        gender: "Gender"
+        male: "Male"
+        female: "Female"
+  users:
+    new:
+        sign_up: "Sign up"
+        create: "Create me account"
   static_pages:
     home:
         title: "Home"

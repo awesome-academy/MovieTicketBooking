@@ -1,5 +1,6 @@
-class ApplicationController < ActionController::Base
+# frozen_string_literal: true
 
+class ApplicationController < ActionController::Base
   before_action :set_locale
 
   def set_locale
@@ -7,6 +8,6 @@ class ApplicationController < ActionController::Base
   end
 
   def default_url_options
-    {locale: I18n.locale}
+    { locale: I18n.locale }
   end
 end
