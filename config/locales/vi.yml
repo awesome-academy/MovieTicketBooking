@@ -3,6 +3,9 @@ vi:
   english: "EN"
   vietnam: "VN"
   sign_up: "Đăng ký"
+  shared:
+    error_messages:
+      content: "Biểu mẫu chứa %{message} lỗi"
   helpers:
     label:
       user:
@@ -18,8 +21,10 @@ vi:
         female: "Nữ"
   users:
     new:
-        sign_up: "Đăng ký"
-        create: "Tạo tài khoản cho tôi"
+      sign_up: "Đăng ký"
+      create: "Tạo tài khoản cho tôi"
+    create:
+      success_create: "Bạn đã đăng ký thành công"
   static_pages:
     home:
         title: "Trang Chủ"

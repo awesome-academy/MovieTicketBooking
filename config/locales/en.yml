@@ -3,6 +3,9 @@ en:
   english: "EN"
   vietnam: "VN"
   sign_up: "Sign up"
+  shared:
+    error_messages:
+      content: "The form contains %{message} error"
   helpers:
     label:
       user:
@@ -20,6 +23,8 @@ en:
     new:
         sign_up: "Sign up"
         create: "Create me account"
+    create:
+      success_create: "You have successfully registered!"
   static_pages:
     home:
         title: "Home"
